@@ -33,17 +33,28 @@
 //     console.log("You are a good actor");
 // }
 
-const password = prompt("Enter your password");
-// password should be at least 6 characters
-if (password.length >= 6) {
-    // password should not contain spaces
-    if (password.indexOf(' ') === -1) {
-        console.log("Password is valid");
-    }
-    else {
-        console.log("Password does not contain spaces");
-    }
-}
-else {
-    console.log("Password is too short");
-}
+// nested conditions
+// const password = prompt("Enter your password");
+// // password should be at least 6 characters
+// if (password.length >= 6) {
+//     // password should not contain spaces
+//     if (password.indexOf(' ') === -1) {
+//         console.log("Password is valid");
+//     }
+//     else {
+//         console.log("Password does not contain spaces");
+//     }
+// }
+// else {
+//     console.log("Password is too short");
+// }
+
+// truthy and falsy values
+
+// const userInput = prompt("Enter something");
+// if (userInput) {
+//     console.log("truthy value");
+// }
+// else {
+//     console.log("falsy value");
+// }
