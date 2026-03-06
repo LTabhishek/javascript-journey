@@ -58,3 +58,13 @@
 // else {
 //     console.log("falsy value");
 // }
+
+// conditional operators
+let age = 20;
+let userID = true;
+if (age >= 18 && userID) {
+    console.log("you can enter")
+}
+else {
+    console.log("you cannot enter")
+}
