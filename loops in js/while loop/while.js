@@ -29,9 +29,9 @@
 // console.log("Correct! The secret code is " + secret);
 
 //breaking out of a loop
-let i = 1;
-while (i <= 10) {
-    if (i === 5) break;
-    console.log(i);
-    i++;
-}
+// let i = 1;
+// while (i <= 10) {
+//     if (i === 5) break;
+//     console.log(i);
+//     i++;
+// }
