@@ -15,6 +15,7 @@ while (parseInt(guess) !== targetNum) {
         attempts++;
     } else if (guess < targetNum) {
         guess = prompt("Too low! Enter a new guess:");
+        attempts++;
     }
     else {
         guess = prompt("Invalid input. Please enter a number or 'q' to quit.");
