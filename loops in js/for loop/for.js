@@ -51,3 +51,12 @@
 // for (let j = 1; j <= 10; j++) {
 //     console.log(`${num}*${j} :${num * j}`)
 // }
+// for...in loop is used to iterate over the properties of an object
+cont obj = {
+    name: "john",
+    age: 30,
+};
+for (let key in obj) {
+    console.log(key);
+}
+
