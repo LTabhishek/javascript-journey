@@ -59,5 +59,25 @@
 // for (let name in obj) {
 //     console.log(obj[name]);
 // }
-
-
+const testScore = {
+    a: 85,
+    b: 90,
+    c: 78,
+    d: 92,
+    e: 88,
+    f: 95,
+    g: 87,
+    h: 91,
+    i: 89,
+    j: 93
+}
+let total = 0;
+let scores = Object.values(testScore);
+for (let score of scores) {
+    total += score;
+}
+console.log(total / scores.length);
+console.log(scores.length)
+for (let key in testScore) {
+    console.log(key, testScore[key])
+}
